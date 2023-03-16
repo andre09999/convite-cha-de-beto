@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*, html{
+  margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+label{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+  width: 50vw;
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+html{
+  background-image: url("./images/foto-para-pc.webp");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 150px;
+  text-align: center;
+  color: #daa520;
+  text-shadow: 0 0 16px rgb(20, 20, 20);
+}
+.Nome{
+  color: #FFD700;
+  font-size: 24px;
+}
+label:hover{
+  border-radius: 20px;
+  background-color: rgba(25, 9, 250, 0.164);
+}
+input{
+  border-radius: 10px;
+  width: 40vw;
+  height: 35px ;
+  border: 1px solid #ffd90000;
+  text-align: center;
+  font-size: 32px;
+  background-color: #ece6e67e;
+}
+
+.button{
+  width: 12vw;
+  font-size: 25px;
+  height: 35px ;
+  border-radius: 10px;
+  color: #051a8b;
+  text-align: center;
+  background-color: white;
+  text-decoration: none;
+  
+}
+.button:hover{
+  background-color: #051a8b;
+  color: white;
+}
+img{
+  height: 15vh;
+  transition: animation 2s;  
+  border-radius: 20px;
+}
+
+.versiculo{
+  color: #000000;
+  font-size: 25px;
+  text-align: justify;
+  background-color: rgba(92, 172, 241, 0.63);
+  border-radius: 15px;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: white 1px solid;
+}
+
+@keyframes fotoBrilha {
+  0% {
+    background: #ffc107b4;
+  }
+  50% {
+    background: url(./images/gifs-animados-de-brilho-1.gif);
+  }
+  100% {
+    background: #ffc1078f;
+  }
+  
+}
+
+.Nome{
+  color: white;
+  text-align: center;
+}
+.data{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: #daa520 1px solid;
+  border-top: #daa520 1px solid;
+
+}
+.date{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  padding-top: 50px;
+  font-size: 32px;
+  color: rgb(250, 250, 250);
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 0 0 16px rgb(20, 20, 20);
+}
+
+.msg{
+  font-size: 34px;
+  text-shadow: 0 0 16px rgb(20, 20, 20);
+  font-family: 'Dancing Script', cursive;
+  color: rgb(255, 255, 255);
+}
+.fundoConvite{
+  background-color: #051a8b;
+  height: 100%;
+  width: 100vw;
+  background-color: #EDC0AB;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.lin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fffefa  ;
+  text-shadow: 0 0 14px rgb(2, 2, 2);
+
+}
+.lin > img{
+  width: 50px;
+  height: 50px;
+}
+.lin:hover{
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 13px;
+}
+.numeral{
+  font-size: 52px;
+  padding-left: 15px;
+  color: #FFD12B !important;
+  padding-right: 15px;
+  text-shadow: 0 0 16px rgb(2, 2, 2);
+  font-weight: bolder;
+}
+.data{
+  text-shadow: 0 0 14px rgb(0, 0, 0);
+}
+.mes{
+  color: #000000;
+  text-shadow: 0 0 14px  #FFD12B;
+  font-weight: bolder;
+  font-size: 22px !important;
+}
+.bottom{
+  padding-top: 30px;
+  font-size: 36px;
+}
+.listadepresente{
+  text-align: center;
+  color: black;
+  border-top: 1px solid rgb(92, 88, 88);
+  border-bottom: 1px solid rgb(92, 88, 88);
+  padding: 15px;
+}
+.noivos{
+  margin-left: 43%;
+  width: 150px;
+  height: 150px;
+}
+.linkss{
+  text-decoration: none;
+  color: #FFD12B;
+  text-shadow: 0 0 14px rgb(2, 2, 2);
+  width: 80vw;
+  margin-left: 5vh;
+}
+
+.listadepresenteH{
+  text-shadow: 0 0 14px rgb(255, 255, 255);
+}
+@media (max-width: 600px)
+{
+  html{
+    background-image: url("./images/celular.webp");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .h1{
+    font-size: 45px;
+    width: 40VW;
+    text-align: center;
+    text-shadow: 0 0 16px rgb(20, 20, 20);
+  }
+  label{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 25vh;
+  }
+  .msg{
+    margin-left: 10vw;
+    text-align: center;
+    width: 80vw !important;
+  } 
+  label:hover{
+    background-color: rgba(255, 255, 255, 0.219);
+    width: 90vw;
+  }
+  input{
+    width: 80vw;
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+  .button{
+    width: 50vw;
+  }
+  .versiculo{
+    text-align: center;
+  }
+ 
+  .Nome{
+    font-size: 28px;
+  }
+  .date{
+    margin-top: 16px;
+  }
+  img{
+    height: 10vw;
+  }
+  .fundoConvite{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+  }
+  .text{
+    padding-top: 0;
+  }
+  .nomeCon{
+    text-transform: capitalize;
+  }
+  .floral{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 190px;
+  }
+  
+  .floral1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 190px;
+  }
+  
+  .noivos{
+    margin-left: 30%;
+    width: 150px;
+    height: 150px;
+  }
+  .mes{
+    text-shadow: 0 0 14px rgb(2, 2, 2);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 26px !important;
+  }
+  .bottom{
+    padding-top: 50px;
+  }
+
+  .container-utensilho{
+    padding: 0;
+  }
+}
+
+
+
